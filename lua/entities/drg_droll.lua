@@ -1,9 +1,3 @@
---[[
-	by Klen_list
-
-	^=v=^ mew!
-]]
-
 if not DrGBase then
 	MsgN"[Nextbot] DrGBase not exist! Abort load..."
 	return
@@ -15,7 +9,6 @@ ENT.Type = "nextbot"
 ENT.PrintName = "Droll"
 ENT.Category = "Memes"
 
-ENT.Models = {"models/player/putin.mdl"}
 ENT.CollisionBounds = Vector(20, 20, 63)
 ENT.RagdollOnDeath = false
 
